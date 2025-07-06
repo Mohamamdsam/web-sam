@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio - Mohc Samramadani</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>👤 MOHC SAMRAMADANI</h1>
+      <p><strong>Alamat:</strong> Kweni RT 07, Panggung Harjo, Sewon, Bantul</p>
+      <p><strong>Tempat & Tanggal Lahir:</strong> Pacitan, 09 November 2004</p>
+      <p><strong>Jenis Kelamin:</strong> Laki-laki</p>
+      <p><strong>Keterampilan:</strong> Sedang berusaha mencari keterampilan</p>
+    </div>
+  </div>
+</body>
+</html>
+
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.card p {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #34495e;
+}
